@@ -1,0 +1,11 @@
+1. HOW TO GET HIBERNATE FOR MY PROJECT?
+     USING MAVEN DEPENDENCY
+2. HOW TO CONFIGURE HIBERNATE FOR GIVEN DATABASE?
+      hibernate.cfg.xml
+3. WHICH CLASS OBJECT YOU WANT TO STORE?
+      FacebookUser
+4. HOW TO MAP ENTITY ON TABLE?
+      inside entity class we will use 2 annotation
+      1. @Entity above to entity class i.e. FacebookUser
+      2. @Id above to the variable which will be primary key inside table.
+5. HOW TO USE HIBERNATE?
