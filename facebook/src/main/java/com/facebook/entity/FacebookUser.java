@@ -5,10 +5,19 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 @Entity   //this annotation help to map entity on table
 @Table(name = "socialmedia") //this one help to change table name
+
+@NamedQueries({
+	@NamedQuery(
+	    name="abc",
+	    query="from com.facebook.entity.FacebookUser f"
+	)})
+
 public class FacebookUser {
 	
 	@Column(name="username", length = 34) //this annotation help to change structure of column in table like name size etc.

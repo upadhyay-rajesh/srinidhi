@@ -16,5 +16,7 @@
       <property name="hibernate.hbm2ddl.auto">update</property>
       
       <mapping class="com.facebook.entity.FacebookUser"/>
+      <mapping class="com.facebook.entity.Trainer"/>
+      <mapping class="com.facebook.entity.Trainees"/>
 </session-factory>
 </hibernate-configuration>
